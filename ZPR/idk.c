@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main (){
-    int a, b;
-    scanf("%d1 %d", &a, &b);
-    printf(" = %d", a + b);
+    char znak;
+    scanf("%c", &znak);
+    printf("\"%d\"", znak);
     return 0;
 }
