@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 int main (){
-    char znak;
-    scanf("%c", &znak);
-    printf("\"%d\"", znak);
+    int a, b, c;
+    printf("Zadej strany trojuhelniku oddeleno carkou: ");
+    scanf("%d,%d,%d", &a, &b, &c);
+    printf("a: %dcm\nb: %dcm\nc: %dcm", a, b, c);
+    system("stop");
     return 0;
 }
