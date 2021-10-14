@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 int main (){
-    int a, b, c;
-    printf("Zadej strany trojuhelniku oddeleno carkou: ");
-    scanf("%d,%d,%d", &a, &b, &c);
-    printf("a: %dcm\nb: %dcm\nc: %dcm", a, b, c);
-    system("stop");
+    int a;
+    printf("Zadej puvodni cenu: ");
+    scanf("%d", &a);
+    printf("Cena po 15%% sleve je: %.2fKc", a -(a * 0.15));
     return 0;
+
 }
